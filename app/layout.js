@@ -1,5 +1,6 @@
 import './globals.css'
 import { DynaPuff } from 'next/font/google'
+import 'animate.css';
 
 const dynapuff = DynaPuff({ 
   subsets: ['latin'],

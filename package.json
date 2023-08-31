@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@fancyapps/ui": "^5.0.22",
+    "animate.css": "^4.1.1",
     "autoprefixer": "10.4.15",
     "eslint": "8.48.0",
     "eslint-config-next": "13.4.19",
