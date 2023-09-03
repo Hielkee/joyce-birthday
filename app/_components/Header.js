@@ -5,7 +5,7 @@ import ScrollDown from "/public/svg/scroll-down.svg";
 
 const Header = () => {
   return (
-    <div className="min-h-screen h-screen-ios flex flex-col items-center justify-center relative">
+    <div className="h-screen flex flex-col items-center justify-center relative">
       <h1 className="mt-1 text-black font-dynapuff font-bold text-8xl text-center md:text-9xl animate__animated animate__zoomInDown">
         Joyce Turns 26!
       </h1>

@@ -12,7 +12,7 @@ import Outro from "./_components/Outro";
 
 export default function App() {
   return (
-    <main className="flex relative min-h-screen flex-col items-center justify-between mx-auto overflow-x-hidden">
+    <main className="flex relative flex-col items-center justify-between mx-auto overflow-x-hidden">
       <Header/>
 
       <Intro/>
