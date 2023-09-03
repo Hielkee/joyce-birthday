@@ -11,7 +11,7 @@ const GallerySection = () => {
   return (
     <section
       id="gallery-section"
-      className="h-screen table flex-col relative items-center max-w-5xl p-5 md:p-10"
+      className="h-screen table relative max-w-5xl p-5 md:p-10"
     >
          <Arrow className="absolute rotate-[80deg] z-0 scale-75 -left-60 top-60" />
       <h1 className="text-[40px] font-dynapuff font-bold text-center mb-10">
