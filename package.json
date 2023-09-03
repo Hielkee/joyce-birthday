@@ -24,6 +24,7 @@
   },
   "devDependencies": {
     "@cloudflare/next-on-pages": "^1.0.2",
+    "@rvxlab/tailwind-plugin-ios-full-height": "^1.1.0",
     "@svgr/webpack": "^8.1.0"
   }
 }
