@@ -11,7 +11,7 @@ const GallerySection = () => {
   return (
     <section
       id="gallery-section"
-      className="h-screen table relative max-w-5xl p-5 md:p-10"
+      className="flex flex-col items-center relative max-w-5xl p-5 md:p-10"
     >
          <Arrow className="absolute rotate-[80deg] z-0 scale-75 -left-60 top-60" />
       <h1 className="text-[40px] font-dynapuff font-bold text-center mb-10">
@@ -24,7 +24,7 @@ const GallerySection = () => {
       <br/><br/>
       And yes, a standing ovation for me, Hielke, who deserves a medal for surviving her antics with a smile!
       </p>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 gap-2 sm:gap-4">
       <a href="/pics/11.jpg" data-fancybox="gallery" className="sm:hover:scale-105 ease-out duration-300" data-caption="Another stunning image shot on the rocks of Gran Canaria. Those were the days...">
           <Image src="/pics/11.jpg" width={500} height={500} alt="" />
         </a>
